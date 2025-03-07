@@ -24,6 +24,9 @@ public class Menu {
     @Column(name = "name", nullable = false)
     private String name;
 
+    @Column(name = "detail")
+    private String detail;
+
     @Column(name = "image")
     private String image;
 
